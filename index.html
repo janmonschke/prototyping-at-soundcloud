@@ -115,9 +115,9 @@
 						<p>Additionally, and this actually happens to me quite a lot - something you think might natural when looking at static screen diagrams often feels very wrong when it's in tangible format.</p>
 					</aside>
 				</section>
-				<section data-background="images/animations-pulse.png">
-					<h2 class="sc-text-shadow fragment fade-up">Animations</h2>
-					<img class="fragment fade-up" src="http://i.giphy.com/26xBAm25ywnSTSati.gif"/>
+				<section>
+					<h2 class="sc-text-shadow">Animations</h2>
+					<img src="images/animations-pulse.png" />
 					<aside class="notes">
 						<p>Let's take a look at another example</p>
 						<p>Let's imagine you were given the task of making this introduction flow feel more alive and interesting</p>
@@ -128,10 +128,18 @@
 					</aside>
 				</section>
 				<section>
+					<img src="http://i.giphy.com/26xBAm25ywnSTSati.gif"/>
+				</section>
+				<section>
 					<h2>Prototyping tools</h2>
 					<aside class="notes">
-						no shortage in tools
+						- you don't want to program this (too much time, might be thrown away)
+						- quick & sometimes dirty way to achieve good results
+						- no shortage in tools
 					</aside>
+				</section>
+				<section>
+					<h2>all 'dem toolz</h2>
 				</section>
 				<section
 					data-background-video="https://framer.com/assets/static/images/frontpage/edit.mp4"
@@ -168,12 +176,12 @@
 				</section>
 				<section>
 					<h2>Prototyping @ <span class="sc-highlight">SoundCloud</span></h2>
+					<p>add some bullittss</p>
 					<aside class="notes">
-						<p>At SoundCloud we do a lot of prototyping with the tools Jan just mentioned</p>
+						<p>At SoundCloud we do a lot of prototyping with these tools</p>
 						<p>They are great for testing simple interactions or animations but however fall short when dealing with data and distribution.</p>
 						<p>Prototypes built with fake data don't feel real because you don't have your own data</p>
 						<p>Therefore, to be able to build prototypes with real data and functionality we've built a version of the SoundCloud app solely for prototyping purposes.</p>
-						<p>Jan will tell you more about this</p>
 					</aside>
 				</section>
 				<section>
@@ -203,9 +211,9 @@
 					<ul>
 						<li>Immersion</li>
 						<li class="fragment fade-up">Make use of familiarity</li>
-						<li class="fragment fade-up">Fulfill expectations</li>
 						<li class="fragment fade-up">Less guidance / more freedom</li>
 						<li class="fragment fade-up">Results more trustworthy / real</li>
+						<li class="fragment fade-up">Fulfill expectations</li>
 					</ul>
 
 					<aside class="notes">
@@ -223,6 +231,9 @@
 					</aside>
 				</section>
 				<section>
+					<h2>add Rihanna image</h2>
+				</section>
+				<section>
 					<h2>Disadvantages</h2>
 					<ul>
 						<li class="fragment fade-up">More expensive <span class="fragment current-visible">(⏲ + 💰)</span></li>
@@ -231,41 +242,16 @@
 					</ul>
 				</section>
 				<section>
-					<h2>How do we test?</h2>
-					<ul>
-						<li class="fragment fade-up">Users in the office</li>
-						<li class="fragment fade-up">Diary studies</li>
-						<li class="fragment fade-up">Internal testing</li>
-					</ul>
-					<aside class="notes">
-						<p>When we want feedback on the usability of something we're trying out, the concept and the design, we bring users in to the office to test out prototypes</p>
-						<p>One way we get feedback on our prototypes is to bring users into the office to test them</p>
-						<p>A series of regular in-house usability tests</p>
-						<p>We do it every three weeks to get regular unbiased feedback</p>
-						<p>Everyone involved in the feature participates, designers, engineers, product managers. Creates empathy with the users. We are actually very determined that everyone participates in the test - not just ux researchers. </p>
-						<p>Imagine the difference between me telling you the results from a usability test or you actually being there in a session seeing a user struggle with something? Which one are you more likely to remember?</p>
-						<p>Quick feedback: quickly test your designs</p>
-						<p>When we need people using the prototype in their own setting and over an extended period of time we do something we call a diary study</p>
-						<p>We give users a prototype to use with for around 2 weeks while checking in with us every other day</p>
-						<p>We do this when we need more than quick feedback</p>
-						<p>We also do a lot of informal internal testing</p>
-						<p>We distribute the prototypes company wide and we get back a lot of feedback that way</p>
-						<p>By doing this everyone can stay up to date with what product design is up to</p>
-						<p>It's also been a great way for us to finetune WIP recommendation algorithms</p>
-						<p>As you can maybe see by now - we've been doing prototyping for while however it has varied how we've done them, nowadays we mostly do everything in React Native - however that didn't use to be the case</p>
-					</aside>
-				</section>
-				<section>
-					<h2>How do we do it?</h2>
+					<h2>How does RN play a role here?</h2>
 					<ul>
 						<li>Prototyping app written in Swift</li>
+						<li class="fragment fade-up">Wanted to prototype a new stream</li>
 						<li class="fragment fade-up">Prototyper busy with other prototypes</li>
-						<li class="fragment fade-up">iOS devs busy with big launch</li>
 						<li class="fragment fade-up">React Native was brand new (April '15)</li>
 						<li class="fragment fade-up">Curiosity and capacity from web devs</li>
 					</ul>
 					<aside class="notes">
-						<p>React Native 0.4.1 - right now we are at version 40</p>
+						<p>React Native 0.4.1 - right now we are at version 42/43</p>
 						<p>Let's do it!</p>
 					</aside>
 				</section>
@@ -306,6 +292,31 @@
 					<p>show reactcloud</p>
 				</section>
 				<section>
+					<h2>How do we test this?</h2>
+					<ul>
+						<li class="fragment fade-up">Users in the office</li>
+						<li class="fragment fade-up">Diary studies</li>
+						<li class="fragment fade-up">Internal testing</li>
+					</ul>
+					<aside class="notes">
+						<p>When we want feedback on the usability of something we're trying out, the concept and the design, we bring users in to the office to test out prototypes</p>
+						<p>One way we get feedback on our prototypes is to bring users into the office to test them</p>
+						<p>A series of regular in-house usability tests</p>
+						<p>We do it every three weeks to get regular unbiased feedback</p>
+						<p>Everyone involved in the feature participates, designers, engineers, product managers. Creates empathy with the users. We are actually very determined that everyone participates in the test - not just ux researchers. </p>
+						<p>Imagine the difference between me telling you the results from a usability test or you actually being there in a session seeing a user struggle with something? Which one are you more likely to remember?</p>
+						<p>Quick feedback: quickly test your designs</p>
+						<p>When we need people using the prototype in their own setting and over an extended period of time we do something we call a diary study</p>
+						<p>We give users a prototype to use with for around 2 weeks while checking in with us every other day</p>
+						<p>We do this when we need more than quick feedback</p>
+						<p>We also do a lot of informal internal testing</p>
+						<p>We distribute the prototypes company wide and we get back a lot of feedback that way</p>
+						<p>By doing this everyone can stay up to date with what product design is up to</p>
+						<p>It's also been a great way for us to finetune WIP recommendation algorithms</p>
+						<p>As you can maybe see by now - we've been doing prototyping for while however it has varied how we've done them, nowadays we mostly do everything in React Native - however that didn't use to be the case</p>
+					</aside>
+				</section>
+				<section>
 					<h2>Learnings</h2>
 				</section>
 				<section>
@@ -336,15 +347,6 @@
 							that is obviously bad for us as we needed to spend more time on the audio part,
 							but if your app does not need audio it is fine
 						</p>
-					</aside>
-				</section>
-				<section>
-					<h2>Disclaimer</h2>
-					<p>React Native is not a silver bullet either</p>
-					<aside class="notes">
-						<p>We're not saying you should only use hifi prototyping and only use React Native for that</p>
-						<p>Each app / company has different requirements and you should evaluate the situation before deciding on a technology here</p>
-						<p>We're just saying that it really worked well for us and we encourage you to give it a spin</p>
 					</aside>
 				</section>
 				<section>
